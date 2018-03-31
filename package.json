@@ -1,0 +1,28 @@
+{
+  "name": "bjdance",
+  "version": "1.0.0",
+  "description": "BJ Dance Trainer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethbattin/bjdance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethbattin/bjdance/issues"
+  },
+  "homepage": "https://github.com/sethbattin/bjdance#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}
